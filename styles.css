@@ -1,0 +1,32 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(221, 219, 219);
+    margin: 20px;
+
+}
+
+h3 {
+
+    font-style: italic;
+
+
+
+}
+
+.img-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 90%; 
+}
+
+.img-block img {
+
+    margin: 40px;
+    border-radius: 30px;
+}
