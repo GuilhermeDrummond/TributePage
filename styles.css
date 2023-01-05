@@ -1,19 +1,39 @@
-
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(221, 219, 219);
+    background-color: rgb(240, 245, 174);
     margin: 20px;
+    border-radius: 10px;
+
+}
+.rodape {
+
+    height: 100px;
+    background-color: black;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+h1 {
+    font-family: 'Brush Script MT'; font-size: 50px;
 
 }
 
 h3 {
 
     font-style: italic;
+    margin-top: -15px;
 
 
 
+}
+
+h2 {
+    font-family: 'Brush Script MT'; font-size: 40px;
 }
 
 .img-block {
@@ -22,11 +42,28 @@ h3 {
     align-items: center;
     background-color: aliceblue;
     border-radius: 10px;
-    width: 90%; 
+    width: 95%; 
+    
 }
 
 .img-block img {
 
     margin: 40px;
     border-radius: 30px;
+    
+}
+
+.topicos {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    font-family: 'Poppins';font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.topicos li{
+    margin-top: 15px;
 }
